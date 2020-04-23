@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'lelignery',
     environment,
-    rootURL: '/',
+    rootURL: '/Lelignery',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {

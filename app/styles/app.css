@@ -1,0 +1,94 @@
+#home, #plans, #project {
+  min-height: 600px;
+}
+
+@media (min-width: 992px) {
+  #home {
+    min-height: 900px;
+  }
+}
+
+#home {
+  background-image: url("images/homeBackground.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #262626;
+}
+
+#plans {
+  background: rgb(66,66,66);
+  background: linear-gradient(45deg, rgba(66,66,66,1) 0%, rgba(66,66,66,1) 17%, rgba(50,50,50,1) 17%, rgba(50,50,50,1) 27%, rgba(66,66,66,1) 27%, rgba(66,66,66,1) 45%, rgba(50,50,50,1) 45%, rgba(50,50,50,1) 100%);
+}
+
+#project {
+  background-color: white;
+}
+
+#contact {
+  background-color: #323232;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+body {
+  color: white;
+}
+
+h1, h3 {
+  color: #92c01f;
+}
+
+h5 {
+  color: #38a936;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #92c01f;
+}
+
+a:hover {
+  color: #418e29;
+  text-decoration: none;
+}
+
+.vl {
+  border-left: 3px solid #323333;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.btn-control {
+  color: black;
+  background-color: #808080;
+  border-radius: 0;
+}
+
+.btn-control:hover {
+  background-color: #418e29;
+}
+
+.bg-dark {
+  background-color: #262626 !important;
+}
+
+.logo-height {
+  max-height: 200px;
+}
+
+.nav-item:active, .nav-item:hover {
+  border: white solid 1px;
+}
+
+.nav-item {
+  border: transparent solid 1px;
+}

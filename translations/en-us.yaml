@@ -1,0 +1,23 @@
+home:
+  title: "Home"
+
+plans:
+  title: "Plans"
+  more: "More"
+  1:
+    date: "01 / 2020"
+    title: "Le terrain"
+    sub-title: "Rue Sainte-Catherine & Montée Saint-Régis"
+    content: "Emeritis, bi-color cannabiss sapienter amor de peritus, altus detrius.Barbatus, dexter adiurators patienter desiderium de nobilis, varius planeta.Nunquam amor terror.Barcass accelerare, tanquam magnum nuclear vexatum iacere.Musa, torquis, et nutrix.Eheu, vox!Hercle, messor emeritis!, danista!"
+
+project:
+  title: "Project & Pictures"
+  content: "Eheu, secundus hydra! Nobilis cottas ducunt ad demolitione. Uria, palus, et diatria. Plasmator talis fiscina est. Vae, capio!Sunt scutumes fallere talis, secundus turpises.Teres itineris tramitem absolute reperires impositio est.A falsis, species barbatus nomen.Assimilant tandem ducunt ad placidus scutum.Nocere aliquando ducunt ad fidelis acipenser.Adiurator dexter apolloniates est."
+
+contact:
+  title: "Contact us"
+  phone: "Phone number"
+  email: "E-Mail"
+  name: "First name, last name"
+  message: "Message"
+  send: "Submit"

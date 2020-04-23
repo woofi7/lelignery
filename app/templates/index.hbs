@@ -1,0 +1,123 @@
+<div id="home">
+
+</div>
+
+<div id="plans">
+  <div class="container py-5">
+    <h1 class="mb-5 text-white">{{t "plans.title"}}</h1>
+    <div class="row">
+      <div class="col-sm-7 pr-sm-5">
+        <div class="row mb-5">
+          <div class="col">
+            <img src="assets/images/lelignery1.jpg" class="img-fluid" alt="Responsive image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="assets/images/lelignery3.jpg" class="img-fluid" alt="Responsive image">
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <small>{{t "plans.1.date"}}</small>
+        <h3>{{t "plans.1.title"}}</h3>
+        <h5>{{t "plans.1.sub-title"}}</h5>
+        <p>{{t "plans.1.content"}}</p>
+        <a href="#project">{{t "plans.more"}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="project" class="pt-5">
+  <div class="container-fluid mt-5">
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-4">
+        <img src="assets/images/logoLeligneryColor.png" class="img-fluid logo-height mx-auto d-block" alt="Responsive image">
+      </div>
+      <div class="col-sm-1 vl display-sm-none"></div>
+      <div class="col">
+        <h1>{{t "project.title"}}</h1>
+        <p class="text-dark">
+          {{t "project.content"}}
+        </p>
+      </div>
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
+        <img src="assets/images/lelignery1.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
+        <img src="assets/images/lelignery2.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
+        <img src="assets/images/lelignery3.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
+        <img src="assets/images/lelignery4.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
+        <img src="assets/images/bg-1.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-12 col-sm-6  col-md-4 d-sm-flex p-0">
+        <img src="assets/images/bg-1.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="container py-5">
+    <h1 class="mb-5 text-white">
+      {{t "contact.title"}}
+      <span class="float-right h4">
+        <a href="#" class="fab fa-facebook-f p-2"></a>
+        <a href="#" class="fab fa-twitter p-2"></a>
+      </span>
+    </h1>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="row">
+          <div class="col-6 col-sm-12 pb-3">
+            {{t "contact.phone"}} : <a href="tel:">(123)-456-7890</a><br>
+            {{t "contact.email"}} : <a href="mailto:info@lelignery.ca">info@lelignery.ca</a>
+          </div>
+          <div class="col-6 col-sm-12 pb-3">
+            000, rue untel<br>
+            Trois-Rivière, Qc<br>
+            000 000
+          </div>
+        </div>
+      </div>
+      <form class="col">
+        <div class="form-row">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="nameFormInput" placeholder={{t "contact.name"}}>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="emailFormInput" placeholder={{t "contact.email"}}>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-group h-100 pb-3">
+              <textarea class="form-control h-100" id="messageFormInput" placeholder={{t "contact.message"}}></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <div class="form-group">
+              <input type="text" class="form-control" id="phoneFormInput" placeholder={{t "contact.phone"}}>
+            </div>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-control mb-2 w-100 text-left">{{t "contact.send"}}</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
