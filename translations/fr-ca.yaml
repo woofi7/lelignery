@@ -17,7 +17,15 @@ project:
 contact:
   title: "Nous joindre"
   phone: "Tél."
+  phone-number: "(123)-456-7890"
   email: "Courriel"
+  email-address: "info@lelignery.ca"
   name: "Prénom, Nom"
   message: "Message"
   send: "Envoyer"
+  address: "000, rue untel<br>
+            Trois-Rivière, Qc<br>
+            000 000"
+
+images:
+  default-alt: "Lelignery"

@@ -9,12 +9,12 @@
       <div class="col-sm-7 pr-sm-5">
         <div class="row mb-5">
           <div class="col">
-            <img src="assets/images/lelignery1.jpg" class="img-fluid" alt="Responsive image">
+            <img src="assets/images/lelignery1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="assets/images/lelignery3.jpg" class="img-fluid" alt="Responsive image">
+            <img src="assets/images/lelignery3.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
           </div>
         </div>
       </div>
@@ -34,7 +34,7 @@
     <div class="container">
       <div class="row">
       <div class="col-sm-4">
-        <img src="assets/images/logoLeligneryColor.png" class="img-fluid logo-height mx-auto d-block" alt="Responsive image">
+        <img src="assets/images/logoLeligneryColor.png" class="img-fluid logo-height mx-auto d-block" alt={{t "images.default-alt"}}>
       </div>
       <div class="col-sm-1 vl display-sm-none"></div>
       <div class="col">
@@ -47,22 +47,22 @@
     </div>
     <div class="row pt-5">
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery1.jpg" class="img-fluid" alt="">
+        <img src="assets/images/lelignery1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery2.jpg" class="img-fluid" alt="">
+        <img src="assets/images/lelignery2.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery3.jpg" class="img-fluid" alt="">
+        <img src="assets/images/lelignery3.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery4.jpg" class="img-fluid" alt="">
+        <img src="assets/images/lelignery4.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/bg-1.jpg" class="img-fluid" alt="">
+        <img src="assets/images/bg-1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
       </div>
       <div class="col-12 col-sm-6  col-md-4 d-sm-flex p-0">
-        <img src="assets/images/bg-1.jpg" class="img-fluid" alt="">
+        <img src="assets/images/bg-1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
       </div>
     </div>
   </div>
@@ -81,13 +81,12 @@
       <div class="col-sm-4">
         <div class="row">
           <div class="col-6 col-sm-12 pb-3">
-            {{t "contact.phone"}} : <a href="tel:">(123)-456-7890</a><br>
-            {{t "contact.email"}} : <a href="mailto:info@lelignery.ca">info@lelignery.ca</a>
+            {{t "contact.phone"}} : <a href="tel:">{{t "contact.phone-number"}}</a><br>
+            {{t "contact.email"}} : <a href="mailto:{{t "contact.email-address"}}">{{t "contact.email-address"}}</a>
           </div>
           <div class="col-6 col-sm-12 pb-3">
-            000, rue untel<br>
-            Trois-Rivière, Qc<br>
-            000 000
+            {{!-- template-lint-disable no-triple-curlies  --}}
+            {{{t "contact.address"}}}
           </div>
         </div>
       </div>

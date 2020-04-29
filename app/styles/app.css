@@ -92,3 +92,21 @@ a:hover {
 .nav-item {
   border: transparent solid 1px;
 }
+
+.ember-power-select-options, .ember-power-select-trigger {
+  background-color: #2f2f2f !important;
+}
+
+.ember-power-select-dropdown {
+  z-index: 1050;
+  border: none;
+  border-radius: 0;
+}
+
+.ember-power-select-trigger {
+  border-radius: 0;
+}
+
+.ember-power-select-option[aria-selected="true"] {
+  background-color: #262626 !important;
+}
