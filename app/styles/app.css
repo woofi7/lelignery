@@ -9,6 +9,15 @@
 }
 
 #home {
+  background-color: #262626;
+  margin-top: 125px;
+}
+
+.carousel-item img {
+  max-height: 900px;
+}
+
+#soins {
   background-image: url("images/homeBackground.jpg");
   background-position: top;
   background-repeat: no-repeat;
@@ -19,6 +28,10 @@
 #plans {
   background: rgb(66,66,66);
   background: linear-gradient(45deg, rgba(66,66,66,1) 0%, rgba(66,66,66,1) 17%, rgba(50,50,50,1) 17%, rgba(50,50,50,1) 27%, rgba(66,66,66,1) 27%, rgba(66,66,66,1) 45%, rgba(50,50,50,1) 45%, rgba(50,50,50,1) 100%);
+}
+
+#espace {
+  background: rgb(66,66,66);
 }
 
 #project {
@@ -37,7 +50,7 @@ body {
   color: white;
 }
 
-h1, h3 {
+h1, h3, h4, small{
   color: #92c01f;
 }
 
@@ -109,4 +122,8 @@ a:hover {
 
 .ember-power-select-option[aria-selected="true"] {
   background-color: #262626 !important;
+}
+
+ul {
+  list-style-type: square;
 }

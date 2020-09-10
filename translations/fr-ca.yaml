@@ -1,23 +1,102 @@
 home:
   title: "Accueil"
+  text: "<p>
+           Le tout nouveau projet d’envergure <b>Le Lignery</b> s’installe aux portes de la ville de Saint-Constant. Avec plus de
+           200 condos locatifs luxueux avec services et un rez-de-chaussée consacré à des espaces commercials, <b>Le Lignery</b> adapté pour
+           un mode de vie saint et actif saura vous charmer, vous les 55 ans et plus.
+         </p>
+         <p>
+           Conçu avec la réalité d’aujourd’hui <b>Le Lignery</b> ne recule devant rien. Non seulement il y sera bon d’y vivre il
+           vous assurera une sécurité accrue contre toutes situations. Son design conditionné à l’affut des dernières
+           tendances en fera sans aucun doute bien des jaloux.
+         </p>
+         <p>
+           <b>Le Lignery</b> vous demande de vous laisser emporter au rythme de son style de vie premium qui vous apportera
+           une légèreté en soi et un droit de rêver grâce à ses installations particulièrement adaptées aux besoins de tous.
+         </p>
+         <p>
+           <b>Le Lignery</b> saura offrir tant qu’aux plus actifs qu’à ceux ayant le désir du confort absolu, une vaste
+           gamme de services ayant à cœur autant le bien-être que le divertissement.
+         </p>"
+  bannerAlt1: ""
+  bannerAlt2: ""
+  bannerAlt3: ""
+  bannerAlt4: ""
 
-plans:
-  title: "Plans"
-  more: "En voir +"
-  1:
-    date: "01 / 2020"
-    title: "Le terrain"
-    sub-title: "Rue Sainte-Catherine & Montée Saint-Régis"
-    content: "Emeritis, bi-color cannabiss sapienter amor de peritus, altus detrius.Barbatus, dexter adiurators patienter desiderium de nobilis, varius planeta.Nunquam amor terror.Barcass accelerare, tanquam magnum nuclear vexatum iacere.Musa, torquis, et nutrix.Eheu, vox!Hercle, messor emeritis!, danista!"
+location:
+  title: "Localisation"
+  text: "<p>
+           <b>Le Lignery</b>, magnifique développement situé à l’entrée de la ville, dans le nouveau quartier huppé de
+           Saint-Constant au coin de la rue Ste-Catherine et Montée Saint-Régis. Ce site enchanteur, dévoile un style de
+           vie prisé qui vous donnera accès à de multiples avantages.
+         </p>"
+  imgAlt1: ""
+  imgAlt2: ""
 
-project:
-  title: "Project & Photos"
-  content: "Eheu, secundus hydra! Nobilis cottas ducunt ad demolitione. Uria, palus, et diatria. Plasmator talis fiscina est. Vae, capio!Sunt scutumes fallere talis, secundus turpises.Teres itineris tramitem absolute reperires impositio est.A falsis, species barbatus nomen.Assimilant tandem ducunt ad placidus scutum.Nocere aliquando ducunt ad fidelis acipenser.Adiurator dexter apolloniates est."
+commonArea:
+  title: "Espaces communs"
+  shops:
+    title: "Commerces à votre rez-de-chaussée"
+    1: "Pharmacie"
+    2: "Épicerie / Café-bistro"
+    3: "Boulangerie"
+    4: "Marché extérieur public"
+    5: "Espace de stationnement réservé pour les vas et vient des gens plus actifs !"
+    6: "Plusieurs autres commodités à venir, l’info lettre vos en informera au fur et a mesure, inscrivez-vous !"
+  residence:
+    title: "Dans votre résidence"
+    1: "Bibliothèque et salon privée"
+    2: "Salle à manger communes et privée"
+    3: "Cuisine communautaire"
+    4: "Cellier locatifs"
+    5: "Salle d'exercices ouverte 7 jours"
+    6: "Chalet Urbain avec table de billard et foyer."
+    7: "Salle d'activitées récréatives, artisanat, bingo, yoga, vie active"
+    8: "Terrasses extérieures"
+    9: "Piscine intérieure"
+    10: "Allée de bowling"
+    11: "Cinéma"
+  imgAlt1: ""
+
+advantages:
+  title: "Avantages"
+  subTitle: "55 ans et plus"
+  text: "<b>Le Lignery</b> vous propose donc une gamme de services variés ayant pour but d’offrir au final un service
+   clé en main et personnalisé afin de répondre aux besoins de tous."
+  1: "Services de repas gastronomique, traiteur , prêt à manger"
+  2: "Services d’aide ménager spécialiser signé Ménage ta vie!"
+  3: "Loisirs, soirées thématiques organisées, art et spectacle"
+  4: "Salle de colis, ainsi qu’une espace réfrigéré à votre disposition"
+  5: "Auto électrique en partage"
+  6: "Stationnement interieur, extérieur"
+  7: "Lave-auto intérieur"
+  imgAlt1: ""
+  imgAlt2: ""
+  imgAlt3: ""
+  imgAlt4: ""
+  imgAlt5: ""
+  imgAlt6: ""
+
+unit:
+  title: "Inclusion"
+  title2: "Condos – Studio – Penthouse"
+  content:
+    1: "6 électroménagers fournis (cuisinière, frigo, lave-vaisselle, micro-onde, laveuse et sécheuse)"
+    2: "Chauffage, air climatisé, électricité"
+    3: "Téléphone, internet, câblodistribution. Prise dans chacune des pièces."
+    4: "Luminaires inclus - cuisine et salle de bain"
+    5: "Fenestration généreuse"
+    6: "Contrôle individuel du système de chauffage et de climatisation dans chaque pièce"
+    7: "Système de sécurité 24 heures, 7 jours sur 7"
+    8: "Stationnement intérieur"
+  imgAlt1: ""
 
 contact:
   title: "Nous joindre"
   phone: "Tél."
-  phone-number: "(123)-456-7890"
+  phone-number: "(514)-360-6585"
+  fax: "Fax."
+  fax-number: "(514)-360-6586"
   email: "Courriel"
   email-address: "info@lelignery.ca"
   name: "Prénom, Nom"

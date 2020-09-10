@@ -1,29 +1,104 @@
 <div id="home">
-
+  <div id="home-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#home-carousel" data-slide-to="1"></li>
+      <li data-target="#home-carousel" data-slide-to="2"></li>
+      <li data-target="#home-carousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="assets/images/lelignery1.jpg" alt={{t "home.bannerAlt1"}}>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/lelignery2.jpg" alt={{t "home.bannerAlt2"}}>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/lelignery3.jpg" alt={{t "home.bannerAlt3"}}>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="assets/images/lelignery4.jpg" alt={{t "home.bannerAlt4"}}>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container py-5">
+    {{{t "home.text"}}}
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YbgnlkJPga4" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 <div id="plans">
   <div class="container py-5">
-    <h1 class="mb-5 text-white">{{t "plans.title"}}</h1>
+    <h1 class="mb-5 text-white">{{t "location.title"}}</h1>
     <div class="row">
-      <div class="col-sm-7 pr-sm-5">
+      <div class="col-sm-7">
         <div class="row mb-5">
           <div class="col">
-            <img src="assets/images/lelignery1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+            <img src="assets/images/localisation1.jpg" class="img-fluid" alt={{t "location.imgAlt1"}}>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <img src="assets/images/lelignery3.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+            <img src="assets/images/localisation2.jpg" class="img-fluid" alt={{t "location.imgAlt2"}}>
           </div>
         </div>
       </div>
       <div class="col">
-        <small>{{t "plans.1.date"}}</small>
-        <h3>{{t "plans.1.title"}}</h3>
-        <h5>{{t "plans.1.sub-title"}}</h5>
-        <p>{{t "plans.1.content"}}</p>
-        <a href="#project">{{t "plans.more"}}</a>
+        {{{t "location.text"}}}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="espace">
+  <div class="container py-5">
+    <h1 class="mb-5 text-white">{{t "commonArea.title"}}</h1>
+    <div class="row">
+      <div class="col-sm-7">
+        <h4>{{t "commonArea.shops.title"}}</h4>
+        <ul>
+          <li>{{t "commonArea.shops.1"}}</li>
+          <li>{{t "commonArea.shops.2"}}</li>
+          <li>{{t "commonArea.shops.3"}}</li>
+          <li>{{t "commonArea.shops.4"}}</li>
+          <li>{{t "commonArea.shops.5"}}</li>
+          <li>{{t "commonArea.shops.6"}}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-7">
+        <h4>{{t "commonArea.residence.title"}}</h4>
+        <ul>
+          <li>{{t "commonArea.residence.1"}}</li>
+          <li>{{t "commonArea.residence.2"}}</li>
+          <li>{{t "commonArea.residence.3"}}</li>
+          <li>{{t "commonArea.residence.4"}}</li>
+          <li>{{t "commonArea.residence.5"}}</li>
+          <li>{{t "commonArea.residence.6"}}</li>
+          <li>{{t "commonArea.residence.7"}}</li>
+          <li>{{t "commonArea.residence.8"}}</li>
+          <li>{{t "commonArea.residence.9"}}</li>
+          <li>{{t "commonArea.residence.10"}}</li>
+          <li>{{t "commonArea.residence.11"}}</li>
+        </ul>
+      </div>
+      <div class="col">
+        <div class="row mb-5">
+          <div class="col">
+            <img src="assets/images/lelignery4.jpg" class="img-fluid" alt={{t "commonArea.imgAlt1"}}>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -38,31 +113,121 @@
       </div>
       <div class="col-sm-1 vl display-sm-none"></div>
       <div class="col">
-        <h1>{{t "project.title"}}</h1>
+        <h1>{{t "advantages.title"}}</h1>
+        <small class="text-uppercase">{{t "advantages.subTitle"}}</small>
         <p class="text-dark">
-          {{t "project.content"}}
+          {{{t "advantages.text"}}}
         </p>
+        <ul class="text-dark">
+          <li>{{t "advantages.1"}}</li>
+          <li>{{t "advantages.2"}}</li>
+          <li>{{t "advantages.3"}}</li>
+          <li>{{t "advantages.4"}}</li>
+          <li>{{t "advantages.5"}}</li>
+          <li>{{t "advantages.6"}}</li>
+          <li>{{t "advantages.7"}}</li>
+        </ul>
       </div>
       </div>
     </div>
     <div class="row pt-5">
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+        <img src="assets/images/lelignery1.jpg" class="img-fluid" alt={{t "advantages.imgAlt1"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery2.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+        <img src="assets/images/lelignery2.jpg" class="img-fluid" alt={{t "advantages.imgAlt2"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery3.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+        <img src="assets/images/lelignery3.jpg" class="img-fluid" alt={{t "advantages.imgAlt3"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/lelignery4.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+        <img src="assets/images/lelignery4.jpg" class="img-fluid" alt={{t "advantages.imgAlt4"}}>
       </div>
       <div class="col-12 col-sm-6 col-md-4 d-sm-flex p-0">
-        <img src="assets/images/bg-1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+        <img src="assets/images/lelignery1.jpg" class="img-fluid" alt={{t "advantages.imgAlt5"}}>
       </div>
       <div class="col-12 col-sm-6  col-md-4 d-sm-flex p-0">
-        <img src="assets/images/bg-1.jpg" class="img-fluid" alt={{t "images.default-alt"}}>
+        <img src="assets/images/lelignery2.jpg" class="img-fluid" alt={{t "advantages.imgAlt6"}}>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="plans">
+  <div class="container py-5">
+    <h1 class="mb-5 text-white">{{t "unit.title2"}}</h1>
+    <div class="row">
+      <img src="assets/images/lelignerySoins.jpg" class="img-fluid col" alt={{t "unit.imgAlt1"}}>
+    </div>
+    <div class="row pt-4">
+      <div class="col">
+        <h3>{{t "unit.title"}}</h3>
+        <ul>
+          <li>{{t "unit.content.1"}}</li>
+          <li>{{t "unit.content.2"}}</li>
+          <li>{{t "unit.content.3"}}</li>
+          <li>{{t "unit.content.4"}}</li>
+          <li>{{t "unit.content.5"}}</li>
+          <li>{{t "unit.content.6"}}</li>
+          <li>{{t "unit.content.7"}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="project" class="pt-5 pb-4">
+  <div class="container-fluid mt-5 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-7 text-dark">
+          <h3>De plus, … pensons à nos ainées</h3>
+          <p>
+            La résidence <b>Le Lignery</b> a  mis en place  un étage  <span class="text-danger"><i>exclusif</i></span>
+            pour les retraités en <b><u>légère</u></b> perte d’autonomie. Un étage comprenant des unités tel que
+            studio, 3  et 4, ou plusieurs services sont inclus pour aider et choyer nos ainés dans leur quotidien.
+          </p>
+          <p>
+            La résidence entière a été pensé et bâtit en respectant les normes de sécurité et sanitaires les plus
+            actuelles.
+          </p>
+          <p>
+            Les appartements sécuritaires et adaptés à nos résidents sont des plus compétitifs sur le marché. Les
+            résidents bénéficient d’une salle à manger commune sur le même étage en plus d’une seconde au deuxième
+            étage à leur convenance. Un coordonnateur de soins , des infirmières auxiliaires et des préposés aux
+            bénéficiaires ainsi qu’un coordonnateur en loisirs adaptés , seront des alliés indispensables pour
+            maintenir une bonne hygiène de vie ainsi qu’un équilibre psychosocial pour les résidents. Le ratio de
+            personnel est notre priorité afin de toujours garder en premier plan, notre vision et notre ligne
+            directrice, prendre soins de nos ainés et d’entretenir une relation des plus humaines  avec eux.»
+          </p>
+          <p>
+            <u>Choix d’unité logement</u> 3 ½, 4 ½ ou Studio air ouverte  comprenant commodités tels que;<br>
+            module de service comprenant (micro-onde, petit réfrigérateur, mini-cuisinière, lavabo et salle de bain
+            adaptés, ainsi que lit articulés dans tous les  unités.
+          </p>
+          <h4 class="mt-4">Inclus</h4>
+          <ul>
+            <li>3 repas par jour et une collation (peut-être servis à l’appartement ).</li>
+            <li>1 ménage au deux semaines.</li>
+            <li>1 lessive par semaine inclus la literie. (pliage, séchage). Refaire le lit.</li>
+            <li>Consultation infirmière, bilan de santé 1 fois semaine.</li>
+            <li>Consultation 1 fois au 3 mois avec 1 médecin affilé à la résidence.</li>
+            <li>Renouvellement de carte d’assurance, aide au formulaire pour le crédit d’impôt, écoute psychosocial, rappel de rendez-vous et assistance au besoin.</li>
+            <li>Contact personnel avec la famille ou son représentant.</li>
+            <li>Internet, téléphone, câblodistribution. (système de communication interne via la télévision).</li>
+            <li>Électricité, chauffage.</li>
+            <li>Surveillance 24/24 7jours7, tirettes d’urgences dans chaque appartement.</li>
+            <li>Bureau de santé.</li>
+            <li>Activités et Loisirs adaptés aux ainés.</li>
+          </ul>
+          <p>
+            Abonnez-vous sans tardez a notre info lettre, nous serons en mesure de vous donnez de l’information a
+            mesure que le projet avance, ou contactez-nous a cette adresse <a href="mailto:info@lelignery.com">info@lelignery.com</a>.
+          </p>
+        </div>
+        <div class="col text-dark">
+          <img src="assets/images/lelignery5.jpg" class="img-fluid logo-height mx-auto d-block" alt={{t "images.default-alt"}}>
+        </div>
       </div>
     </div>
   </div>
@@ -82,6 +247,7 @@
         <div class="row">
           <div class="col-6 col-sm-12 pb-3">
             {{t "contact.phone"}} : <a href="tel:">{{t "contact.phone-number"}}</a><br>
+            {{t "contact.fax"}} : <a href="tel:">{{t "contact.fax-number"}}</a><br>
             {{t "contact.email"}} : <a href="mailto:{{t "contact.email-address"}}">{{t "contact.email-address"}}</a>
           </div>
           <div class="col-6 col-sm-12 pb-3">
