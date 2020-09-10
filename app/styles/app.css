@@ -17,17 +17,19 @@
   max-height: 900px;
 }
 
-#soins {
-  background-image: url("images/homeBackground.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+#unit {
   background-color: #262626;
+  background: linear-gradient(110deg, rgba(38,38,38,1) 90%, rgba(50,50,50,1) 90%, rgba(50,50,50,1) 100%);
 }
 
 #plans {
   background: rgb(66,66,66);
-  background: linear-gradient(45deg, rgba(66,66,66,1) 0%, rgba(66,66,66,1) 17%, rgba(50,50,50,1) 17%, rgba(50,50,50,1) 27%, rgba(66,66,66,1) 27%, rgba(66,66,66,1) 45%, rgba(50,50,50,1) 45%, rgba(50,50,50,1) 100%);
+  background: linear-gradient(45deg, rgba(66,66,66,1) 0%, rgba(66,66,66,1) 17%, rgba(50,50,50,1) 17%,
+  rgba(50,50,50,1) 27%, rgba(66,66,66,1) 27%, rgba(66,66,66,1) 45%, rgba(50,50,50,1) 45%, rgba(50,50,50,1) 100%);
+}
+
+#personnal p {
+  font-style: italic;
 }
 
 #espace {

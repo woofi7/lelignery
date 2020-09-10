@@ -91,8 +91,52 @@ unit:
     8: "Stationnement intérieur"
   imgAlt1: ""
 
+personnal:
+  title: "De plus, … pensons à nos ainées"
+  text: "<p>
+           La résidence <b>Le Lignery</b> a  mis en place  un étage  <i>exclusif</i>
+           pour les retraités en <b><u>légère</u></b> perte d’autonomie. Un étage comprenant des unités tel que
+           studio, 3  et 4, ou plusieurs services sont inclus pour aider et choyer nos ainés dans leur quotidien.
+         </p>
+         <p>
+           La résidence entière a été pensé et bâtit en respectant les normes de sécurité et sanitaires les plus
+           actuelles.
+         </p>
+         <p>
+           Les appartements sécuritaires et adaptés à nos résidents sont des plus compétitifs sur le marché. Les
+           résidents bénéficient d’une salle à manger commune sur le même étage en plus d’une seconde au deuxième
+           étage à leur convenance. Un coordonnateur de soins , des infirmières auxiliaires et des préposés aux
+           bénéficiaires ainsi qu’un coordonnateur en loisirs adaptés , seront des alliés indispensables pour
+           maintenir une bonne hygiène de vie ainsi qu’un équilibre psychosocial pour les résidents. Le ratio de
+           personnel est notre priorité afin de toujours garder en premier plan, notre vision et notre ligne
+           directrice, prendre soins de nos ainés et d’entretenir une relation des plus humaines  avec eux.»
+         </p>"
+
+unitDesc:
+  title: "Unitées de logement"
+  text: "<u>Choix d’unité logement</u> 3 ½, 4 ½ ou Studio air ouverte  comprenant commodités tels que: module de
+                   service comprenant (micro-onde, petit réfrigérateur, mini-cuisinière, lavabo et salle de bain adaptés, ainsi
+                   que lit articulés dans tous les  unités."
+  list:
+    title: "Inclus"
+    1: "3 repas par jour et une collation (peut-être servis à l’appartement )."
+    2: "1 ménage au deux semaines."
+    3: "1 lessive par semaine inclus la literie. (pliage, séchage). Refaire le lit."
+    4: "Consultation infirmière, bilan de santé 1 fois semaine."
+    5: "Consultation 1 fois au 3 mois avec 1 médecin affilé à la résidence."
+    6: "Renouvellement de carte d’assurance, aide au formulaire pour le crédit d’impôt, écoute psychosocial, rappel de rendez-vous et assistance au besoin."
+    7: "Contact personnel avec la famille ou son représentant."
+    8: "Internet, téléphone, câblodistribution. (système de communication interne via la télévision)."
+    9: "Électricité, chauffage."
+    10: "Surveillance 24/24 7jours7, tirettes d’urgences dans chaque appartement."
+    11: "Bureau de santé."
+    12: "Activités et Loisirs adaptés aux ainés."
+    13: "Plusieurs autres services médicaux offerts à la carte."
+
 contact:
   title: "Nous joindre"
+  text: "Abonnez-vous sans tardez a notre info lettre, nous serons en mesure de vous donnez de l’information a mesure que
+               le projet avanceé"
   phone: "Tél."
   phone-number: "(514)-360-6585"
   fax: "Fax."
